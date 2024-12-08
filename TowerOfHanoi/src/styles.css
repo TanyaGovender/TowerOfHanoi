@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url('images/6493501.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+  }
+  
+  #controls {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #controls label {
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  #controls input {
+    font-size: 17px;
+    padding: 10px 15px;
+    width: 40px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  #game {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  .tower {
+    position: relative;
+    width: 250px; 
+    height: 450px;
+    display: flex;
+    border: 2px solid #000000;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding-bottom: 2px;
+    background-color: transparent;
+  }
+  
+  .pole {
+    position: absolute;
+    bottom: 0;
+    height: 95%;
+    width: 10px;
+    background-color: #000000;
+    z-index: 1; 
+  }
+  
+  .disk {
+    height: 30px;
+    margin-top: 5px; 
+    border: 1px solid #000000;
+    border-radius: 50px;
+    z-index: 2; 
+  }
+  
+  button {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 12px 25px;
+    background-color: #53adcb;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 40px;
+    margin-top: 25px; 
+    border-radius: 5px;
+    width: 250px;
+  }
+  
+  button:hover {
+    background-color: #d845cc;
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+    background-color: #cccccc; 
+    color: #575656; 
+    opacity: 0.6;
+  }
+  
+  input:disabled {
+    cursor: not-allowed;
+    background-color: #cccccc; 
+    color: #575656; 
+    opacity: 0.6;
+  }
+
+  label {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  input[type="range"] {
+    width: 275px; 
+    height: 20px; 
+    background: #53adcb; 
+    border-radius: 10px;
+    outline: none; 
+  }
+  
+  .slider-container {
+    margin-top: -15px; 
+  }
+  
+  
+  
+  
+  
+  
